@@ -1,0 +1,233 @@
+
+/*===========================/Top NAvigation================================*/
+.topNavigationSection{
+	background-color: #454545;
+}
+.topNavigationSection .naigationNav{
+	padding-bottom: 38px;
+}
+.topNavigationSection ul li a
+{
+	text-decoration: none;
+	padding-right: 20px !important;
+	padding-left: 20px !important;
+	padding-top: 0 !important;
+}
+.topNavigationSection ul li
+{
+	position: relative;
+}
+.topNavigationSection ul li .navigationBlock p{
+	margin-bottom: 0;
+	color: #fff;
+	font-size: 20px;
+}
+.topNavigationSection .topnavprogress ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.progress1, .progress2,.progress3{
+	display: inline-block;
+	height: 5px;
+	width: 33.33%;
+}
+
+.topNavigationSection .topnavprogress .progress1{
+	background-color: #e0301e;
+}
+.topNavigationSection .topnavprogress .progress2{
+	background-color: #ffb600;
+}
+.topNavigationSection .topnavprogress .progress3{
+	background-color: #db536a;
+}
+
+.topNavigationSection li.lifeNavmenu .topnavprogress .progress1{
+	background-color: #db536a;	
+}
+.topNavigationSection li.lifeNavmenu .topnavprogress .progress2{
+	background-color: #e0301e;
+}
+.topNavigationSection li.lifeNavmenu .topnavprogress .progress3{	
+	background-color: #ffb600;
+}
+
+
+.topNavigationSection li.digitalNavmenu .topnavprogress .progress1{
+	background-color: #ffb600;		
+}
+.topNavigationSection li.digitalNavmenu .topnavprogress .progress2{
+	background-color: #db536a;	
+}
+.topNavigationSection li.digitalNavmenu .topnavprogress .progress3{	
+	background-color: #e0301e;
+}
+
+
+.topNavigationSection .navigationBlock{
+	position: relative;
+}
+
+.topNavigationSection .navigationBlock .topnavprogress{
+	position: absolute;
+	width: 100%;
+	top: 32px;
+	display: flex;
+}
+.borderRight{
+	background-color: #d9d9d9;
+	width: 1px;
+	height: 15px;
+	position: absolute;
+	right: 0;
+    top: 23px;
+}
+.growthStatus{
+	position: absolute;
+	top: 32px;
+	width: auto;
+    color: #fff;
+    padding: 3px;
+}
+.topNavigationSection .growthStatus p{
+	margin-bottom: 0;
+	font-size: 12px;
+	color: #fff;
+}
+li.growthNavmenu .growthStatus {
+
+	background-color: #e0301e;
+}
+li.lifeNavmenu .growthStatus{
+	background-color: #db536a;
+}
+li.digitalNavmenu .growthStatus{
+	background-color: #ffb600;
+}
+li .growthStatus.bggray{
+	background-color: #cbcbcb;
+}
+li .growthStatus.bggray p{
+	color: #000;
+}
+li.theWorld{
+	width: 150px;
+}
+li.aboutOurStratagy{
+	width: 200px;
+}
+
+/*===========================//Top NAvigation================================*/
+
+/*=============================Start Header Section==================================*/
+.bg-home{
+	background-image: url(../images/1.jpg);
+	background-size: cover;
+	background-position: center center;
+	padding:130px 0px 190px;
+	position: relative;
+}
+
+.bg-overlay {
+    background: rgba(27, 31, 37, 0.4);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header_con_box{
+	background: rgb(85 82 82 / 85%);
+	border-radius: 5px;
+}
+
+.video_side{
+	border-radius: 5px;
+}
+
+/*=============================End Header Section==================================*/
+/*=============================/Banner Tab=========================================*/
+
+.banner-tab-view{
+	position: relative;
+	top: -100px;
+}
+
+.banner_tab{
+	width: 190px;
+	height: 210px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.icon_banner img{
+	width: 48px;
+}
+
+.tab-custom .nav-link{
+	color: #000;
+	background: #fff;  
+	box-shadow:0px 0px 17px 1px rgb(0 0 0 / 12%);
+	
+}
+
+.tab-custom li.nav-item{
+	margin: 0px 16px;
+}
+
+.tab-custom .nav-link.active, .nav-pills .show>.nav-link{
+	background: #ea8105; 
+	background: -webkit-linear-gradient(to top, #d04a02, #ea8105);  
+	background: linear-gradient(to top, #d04a02, #ea8105);
+
+	color: #fff !important;
+	margin-top: 45px;
+}
+.tabViewDetail{
+	display: flex;
+}
+.tabviewLeftbgimg img{
+	width: 100%;
+	height: 100%;
+}
+.tabviewpan .tab-pane{
+	background: #eee6e6; 
+	background: -webkit-linear-gradient(to bottom, #fdfdfd, #eee6e6);  
+	background: linear-gradient(to bottom, #fdfdfd, #eee6e6);
+	box-shadow: 0px 0px 17px 1px rgb(0 0 0 / 12%);
+}
+.tabviewVideo{
+	width: 400px;
+	height: auto;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+.tabviewpan{
+	padding: 0 20px;
+	margin-top: -30px;
+}
+.tab-custom ul{
+	z-index: 999;
+}
+.banner_content h4{
+	font-size: 20px;
+}
+.tabviewContent h3{
+	font-size: 33px;
+}
+/*==========================================//Banner Tab==============================*/
+
+/*=========================/Time toTake Action===========================================*/
+.timetoTakeaction{
+	margin: 0 40px;
+    padding: 15px 55px;
+	background: #fafafa;
+}
+/*=========================//Time toTake Action===========================================*/
